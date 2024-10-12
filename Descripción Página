@@ -1,0 +1,4 @@
+Pagina Web de Catering de comidas.
+Creada con Bootstrap 5 como framework. Con HTML, como lenguaje de estructura, CSS Y Javascript para lenguaje de scripting.
+La idea del diseño de la página es que la misma sea responsive y cuente con ofertas y un formulario en su pagina principal,
+y dos paginas subyacentes con los principales productos destacados.
