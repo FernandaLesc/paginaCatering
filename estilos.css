@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+
+
+
+
+body {
+    font-family: 'Roboto Condensed', sans-serif;
+    overflow-x: hidden;
+    background-color: rgb(255, 255, 255);
+
+}
+
+#barraNav a {
+    font-size: 18px;
+    font-weight: 400;
+    color: black;
+}
+
+#barraNav button{
+    
+        font-family: 'Bebas Neue', serif;
+        font-size: 18px;
+        font-weight: 500;
+        height: 45px;
+        border-radius: 18px;
+        box-shadow: 2px 3px 3px 1px rgba(0, 0, 0, 0.15);
+    
+
+}
+
+#carrusel {
+    max-height: 50em;
+    opacity: 85%;
+}
+
+#intro h1 {
+    font-family: 'Playfair Display', sans-serif;
+}
+
+.card {
+    box-shadow: 5px 5px 8px 2px rgba(0, 0, 0, 0.15);
+
+    .btn {
+        font-family: 'Bebas Neue', serif;
+        width: 70%;
+        border-radius: 18px;
+    }
+}
+
+#formContacto {
+    background-image:url(img/fondoNegro.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size:cover;
+    box-shadow: 10px 10px 18px 12px rgba(0, 0, 0, 0.15) ; 
+
+    #botonEnviar {
+        font-family: 'Bebas Neue', serif;
+        font-size: 20px;
+        font-weight: 500;
+        height: 5vh;
+        width: 25vh;
+        
+    }
+}
+
+
+
+@media(max-width:768px) {
+    #intro {
+        width: 90% !important;
+
+    }
+
+    .card {
+        width: 100%;
+        text-align: center;
+        
+        .btn {
+            font-family: 'Bebas Neue', serif;
+            width: auto;
+            border-radius: 18px;
+        }
+    }
+
+    #pie {
+
+        width: 100%;
+        height: 100%;
+        font-size: 60%;
+    }
+}
